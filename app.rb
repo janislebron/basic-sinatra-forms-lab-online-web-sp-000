@@ -13,4 +13,6 @@ class App < Sinatra::Base
     @sf = params[:]
     @pf = params[:]
     @c = params[:]
+    erb :team
+  end 
 end
