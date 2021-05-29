@@ -5,6 +5,9 @@ class App < Sinatra::Base
     erb :newteam
   end 
 
-  
-  
+  get '/newteam' do
+    @name = params[:]
+    @coach = params[:]
+    @pg = params[:]
+    
 end
